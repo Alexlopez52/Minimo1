@@ -28,18 +28,14 @@ public class User {
         pedidos.add(c);
     }
 
-    public  Pedido getPedido(String id) {
-        for (Pedido p : pedidos) {
-            if (p.getId().equals(id)) {
-                return p;
-            }
-        }
-        return null;
+    public  Queue<Pedido> getPedido(String id) {
+
+        return this.pedidos;
     }
 
-    public Queue<Pedido> Pedido() {
-        pedidos = new LinkedList<Pedido>(); //no esta bien
-    }
+//    public void Pedido() {
+//        pedidos = new LinkedList<Pedido>(); //no esta bien
+//    }
 
 
     //public void addUser(String id, String name){

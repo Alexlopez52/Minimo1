@@ -38,6 +38,9 @@ public class Pedido {
         public String getProducto() {
             return producto;
         }
+        public int getCantidad(){
+            return q;
+        }
     }
 }
 

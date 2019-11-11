@@ -25,6 +25,10 @@ public class Producto {
     public int getNumVentas() {
         return numVentas;
     }
+    public void addventa(int numero)
+    {
+        this.numVentas=numVentas+numero;
+    }
     public double getPrecio() {
         return precio;
     }
